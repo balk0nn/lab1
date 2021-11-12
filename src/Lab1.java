@@ -37,17 +37,17 @@ public class Lab1 {
         d = scan.nextInt();
         System.out.println("Thank you! Got " + d);
 
-        if((a > b) & (a > c) &( a > d)){
-            System.out.println("The largest number was  " + a);
+        if((a < b) & (a < c) &( a < d)){
+            System.out.println("The smallest number was  " + a);
             }
-        if((b > a) & (b > c) & (b > d)){
-            System.out.println("The largest number was  " + b);
+        if((b < a) & (b < c) & (b < d)){
+            System.out.println("The smallest number was  " + b);
         }
-        if((c > a) & (c > b) & (c > d)){
-            System.out.println("The largest number was  " + c);
+        if((c < a) & (c < b) & (c < d)){
+            System.out.println("The smallest number was  " + c);
         }
-        if((d > a) & (d > b) & (d > c)){
-            System.out.println("The largest number was  " + d);
+        if((d < a) & (d < b) & (d < c)){
+            System.out.println("The smallest number was  " + d);
         }
         }
     }
