@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Lab1 {
     public static void main(String[] args) throws IOException {
         Scanner scan = new Scanner(System.in);
+        System.out.println("Now you will have to enter 4 integer numbers");
         int a;
             System.out.println("Please enter 4 more numbers!");
                 while (!scan.hasNextInt()) {
